@@ -1,4 +1,4 @@
-const form = document.getElementsByClassName("faixa_login");
+const form = document.querySelector(".faixa_login");
 const input = document.getElementsByClassName("faça_login ");
 const [nome,senha,button] = input;
 console.log(window.location.href) 
